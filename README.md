@@ -101,20 +101,8 @@ The dataset consists of daily trending YouTube videos for multiple regions and c
    - AWS Athena provides SQL-based query capabilities on data stored in S3.
    - Analytical access provided via APIs.
 
-5. **Visualization**:
-   - Data insights visualized using Amazon QuickSight, optionally Power BI or other tools.
-
-6. **Monitoring**:
+5. **Monitoring**:
    - AWS CloudWatch monitors data flow, transformations, and system performance.
-
----
-
-## **Target Analytics**
-
-- **Video Trends**: Top trending videos based on views, likes, and comment counts.
-- **Regional Analysis**: Comparison of trending videos across different regions.
-- **Category Insights**: Performance metrics of video categories.
-- **Channel Performance**: Identify high-performing YouTube channels.
 
 ---
 
@@ -122,7 +110,6 @@ The dataset consists of daily trending YouTube videos for multiple regions and c
 
 - **AWS Services**: S3, Glue, Lambda, Athena, QuickSight, CloudWatch, Step Functions, IAM.
 - **Programming Language**: Python (for Glue and Lambda scripts).
-- **Visualization**: QuickSight, Power BI (Optional).
 
 ---
 
@@ -144,7 +131,7 @@ The dataset consists of daily trending YouTube videos for multiple regions and c
 
 ---
 
-## **Contributors**
+## **Contacts**
 
 - Najma el boutaheri
 - Email: [najmaelboutaheri@gmail.com](najmaelboutaheri@gmail.com)
