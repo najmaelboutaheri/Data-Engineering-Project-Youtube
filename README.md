@@ -19,55 +19,56 @@ This project aims to securely manage, process, and analyze structured and semi-s
 
 ## **Architecture Diagram**
 
-![Data Architecture](image.png)
+![image](https://github.com/user-attachments/assets/bf684093-10f3-471f-893c-07298e7cc0dd)
+
 
 ---
 
 ## **Services Used**
 
 ### **1. Amazon S3**
-- **Purpose**: Object storage for raw, cleansed, and processed data.
-- **Components**:
+ **Purpose**: Object storage for raw, cleansed, and processed data.
+ **Components**:
    - **Landing Area**: Raw data ingestion zone.
    - **Cleansed/Enriched**: Transformed and cleaned data storage.
    - **Analytics/Reporting**: Final processed data for analysis and reporting.
 
 ### **2. AWS Glue**
-- **Purpose**: Serverless ETL service to clean, prepare, and transform data.
-- **Usage**:
+**Purpose**: Serverless ETL service to clean, prepare, and transform data.
+**Usage**:
    - Discovering schema.
    - Cataloging data for analytics.
    - Processing and enriching data.
 
 ### **3. AWS Lambda**
-- **Purpose**: Run code without managing servers.
-- **Usage**:
+**Purpose**: Run code without managing servers.
+**Usage**:
    - Triggered for automated data transformations.
    - Event-driven workflows.
 
 ### **4. AWS Step Functions**
-- **Purpose**: Orchestrate AWS services into serverless workflows.
-- **Usage**:
+**Purpose**: Orchestrate AWS services into serverless workflows.
+**Usage**:
    - Coordinate the ETL pipeline for seamless data flow.
 
 ### **5. AWS Athena**
-- **Purpose**: Query S3-stored data using SQL.
-- **Usage**:
+**Purpose**: Query S3-stored data using SQL.
+**Usage**:
    - Interactive querying of processed data for insights.
 
 ### **6. AWS IAM**
-- **Purpose**: Manage access to AWS services securely.
-- **Usage**:
+**Purpose**: Manage access to AWS services securely.
+**Usage**:
    - Control permissions for AWS services.
 
 ### **7. Amazon QuickSight**
-- **Purpose**: BI and analytics dashboard.
-- **Usage**:
+**Purpose**: BI and analytics dashboard.
+**Usage**:
    - Visualize trends, metrics, and insights.
 
 ### **8. AWS CloudWatch**
-- **Purpose**: Monitor and alert on AWS services.
-- **Usage**:
+**Purpose**: Monitor and alert on AWS services.
+**Usage**:
    - Monitor ETL jobs, Lambda executions, and other resources.
 
 ---
