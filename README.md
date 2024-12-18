@@ -147,7 +147,7 @@ The dataset consists of daily trending YouTube videos for multiple regions and c
 ## **Contributors**
 
 - Najma el boutaheri
-- Email: (![najmaelboutaheri@gmail.com])
-- link: Linkedin Profile (![https://www.linkedin.com/in/najma-el-boutaheri-8185a1267/])
+- Email: ![najmaelboutaheri@gmail.com](najmaelboutaheri@gmail.com)
+- link: ![Linkedin Profile](https://www.linkedin.com/in/najma-el-boutaheri-8185a1267/)
 
 ---
