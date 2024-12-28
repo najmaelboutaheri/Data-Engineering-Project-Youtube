@@ -36,6 +36,9 @@ This project aims to securely manage, process, and analyze structured and semi-s
    - **Cleansed/Enriched**: Transformed and cleaned data storage.
    - **Analytics/Reporting**: Final processed data for analysis and reporting.
 
+     <img width="647" alt="image" src="https://github.com/user-attachments/assets/d351a15d-f65c-4a6d-8314-5d66a4e82e4d" />
+
+
 ### **2. AWS Glue**
 **Purpose**: Serverless ETL service to clean, prepare, and transform data.
 **Usage**:
