@@ -10,6 +10,9 @@ This project aims to securely manage, process, and analyze structured and semi-s
 
 1. **Data Ingestion**: Build a robust mechanism to ingest data from multiple sources.
 2. **ETL System**: Transform raw data into a clean, enriched, and usable format.
+
+   <img width="928" alt="ytb2" src="https://github.com/user-attachments/assets/3fd70c21-ab0f-40e8-809f-fd71cbb1b5fd" />
+
 3. **Centralized Data Lake**: Store data from multiple sources in a unified and scalable repository.
 4. **Scalability**: Ensure that the system can handle growing data volumes seamlessly.
 5. **Cloud Processing**: Use AWS cloud infrastructure for efficient data handling and processing.
@@ -73,8 +76,7 @@ This project aims to securely manage, process, and analyze structured and semi-s
      
    <img width="572" alt="youtube-project-1" src="https://github.com/user-attachments/assets/ea685c6b-3b70-4773-a132-4fc0927e2e47" />
 
-We used AWS athena to join between dataset that comes from diffrents source
-   Query example:
+We used AWS athena to join between dataset that comes from diffrents source a query example:
 
    <img width="584" alt="youtube-project-3" src="https://github.com/user-attachments/assets/6c797798-09ea-4261-8cc6-69a9386d78d5" />
    
@@ -92,7 +94,8 @@ We used AWS athena to join between dataset that comes from diffrents source
 **Usage**:
    - Visualize trends, metrics, and insights.
 
-     <img width="928" alt="ytb2" src="https://github.com/user-attachments/assets/29538da8-df89-44bf-a5ac-9f947241072b" />
+     <img width="959" alt="youtube-project-14" src="https://github.com/user-attachments/assets/ba2f33be-51e0-4db2-be75-a92c06ae941c" />
+
 
 
 ### **8. AWS CloudWatch**
