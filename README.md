@@ -36,14 +36,25 @@ This project aims to securely manage, process, and analyze structured and semi-s
 ### **2. AWS Glue**
 **Purpose**: Serverless ETL service to clean, prepare, and transform data.
 **Usage**:
-   - Discovering schema.
+   - Discovering schema
+
+     <img width="308" alt="youtube-project-5" src="https://github.com/user-attachments/assets/f262f6f0-f3c1-466b-a89e-5dfde8b8c6a3" />
+
+   - Joining  datasets.
+
+     <img width="533" alt="youtube-project-11" src="https://github.com/user-attachments/assets/9ed3e13e-828f-40df-bcc2-11d4f10da993" />
+
    - Cataloging data for analytics.
+     
    - Processing and enriching data.
 
 ### **3. AWS Lambda**
 **Purpose**: Run code without managing servers.
 **Usage**:
    - Triggered for automated data transformations.
+
+     <img width="416" alt="youtube-project-8" src="https://github.com/user-attachments/assets/b189ace4-bcbd-48e8-9eb2-9374d5df58e8" />
+
    - Event-driven workflows.
 
 ### **4. AWS Step Functions**
@@ -55,6 +66,21 @@ This project aims to securely manage, process, and analyze structured and semi-s
 **Purpose**: Query S3-stored data using SQL.
 **Usage**:
    - Interactive querying of processed data for insights.
+     
+   <img width="566" alt="youtube-project-2" src="https://github.com/user-attachments/assets/3d190fd7-772a-44e1-8b08-59e8c93ebfc4" />
+     
+   output:
+     
+   <img width="572" alt="youtube-project-1" src="https://github.com/user-attachments/assets/ea685c6b-3b70-4773-a132-4fc0927e2e47" />
+
+We used AWS athena to join between dataset that comes from diffrents source
+   Query example:
+
+   <img width="584" alt="youtube-project-3" src="https://github.com/user-attachments/assets/6c797798-09ea-4261-8cc6-69a9386d78d5" />
+   
+   Output:
+   
+   <img width="575" alt="youtube-project-4" src="https://github.com/user-attachments/assets/bd57433f-c8da-43cc-af97-c9834066d552" />
 
 ### **6. AWS IAM**
 **Purpose**: Manage access to AWS services securely.
@@ -65,6 +91,9 @@ This project aims to securely manage, process, and analyze structured and semi-s
 **Purpose**: BI and analytics dashboard.
 **Usage**:
    - Visualize trends, metrics, and insights.
+
+     <img width="928" alt="ytb2" src="https://github.com/user-attachments/assets/29538da8-df89-44bf-a5ac-9f947241072b" />
+
 
 ### **8. AWS CloudWatch**
 **Purpose**: Monitor and alert on AWS services.
